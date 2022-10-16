@@ -1,0 +1,29 @@
+Create an ASP.NET WebForms Application to Display the UI for Managing the School Database
+-----------------------------------------------------------------------------------------------
+
+Webforms for School database management
+
+Github : https://github.com/sundershyam04/Phase3-PracticeProject-3-SchoolWebforms.git
+
+-----------------------------------------WRITEUP---------------------------------------------------
+
+Master page is created for navigation of Student, subject, class, table pages and footer contents 
+
+the above master page is used for all webforms in the project
+
+Default homepage is created with School Management title and introductory contents
+
+A separate Student , subject, class, and Table webforms are created 
+
+database: School management
+
+Student : a form with all student table attributes taken from the database and required validations are created
+
+Subject : a form with all Subject table attributes taken from the database and required validations are created
+
+Class 	: a form with all class table attributes taken from the database and required validations are created
+
+Table 	: 3  gridviews are created for Student, subject, class table datasource is taken from sqlclient database source and necessary connection to the DB are made 
+			=> data from those tables in the database are viewed in gridview in Table webforms
+			
+			Thus, UI for school management application is created using webforms
